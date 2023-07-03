@@ -32,4 +32,3 @@ def pascal_triangle(n):
         
     return triangle
 
-
