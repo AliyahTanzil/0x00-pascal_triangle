@@ -11,10 +11,6 @@ def pascal_triangle(n):
         
     Returns:
         List[List[int]]: Pascal's triangle as a list of lists of integers.
-        
-    Example:
-        >>> pascal_triangle(5)
-        [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]]
     """
     if n <= 0:
         return []  # Return an empty list if n <= 0
